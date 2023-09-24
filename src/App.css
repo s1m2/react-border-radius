@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  margin-block-end: 6rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+input[type="range"] {
+  margin-block-start: 2rem;
+  width: 20rem;
+}
+
+
+.box {
+  margin: 0 auto;
+  height: 20rem;
+  width: 20rem;
+  background-color: oklch(50% 50 50);
+  transition: all .1s;
+}
